@@ -1,0 +1,29 @@
+# Core framework
+fastapi==0.116.1
+uvicorn==0.35.0
+python-dotenv==1.1.1
+python-multipart==0.0.20
+pydantic==2.11.7
+
+# LangChain + LLM integrations
+openai==1.97.1
+mistralai==0.4.2
+langchain==0.3.27
+langchain-core==0.3.72
+langchain-community==0.3.27
+langchain-openai==0.3.28
+langchain-mistralai==0.2.11
+langchain-google-genai==2.1.8
+langchain-groq==0.3.6
+
+# NLP & Embeddings
+spacy==3.8.7
+numpy==2.3.2
+
+# PDF & DOCX Parsing
+PyMuPDF==1.26.3
+python-docx==1.2.0
+fuzzywuzzy==0.18.0
+
+# External requests
+requests==2.32.4

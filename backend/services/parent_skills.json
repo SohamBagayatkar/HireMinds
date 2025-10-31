@@ -1,0 +1,75 @@
+{
+  "Machine Learning": [
+    "Scikit-learn", "XGBoost", "LightGBM", "CatBoost", "TensorFlow", "PyTorch", "Keras", "MLflow", "Optuna", "H2O.ai", "Fastai", "DVC"
+  ],
+  "Deep Learning": [
+    "TensorFlow", "PyTorch", "Keras", "Theano", "Fastai", "ONNX", "Caffe", "MXNet"
+  ],
+  "Computer Vision": [
+    "OpenCV", "YOLO", "Detectron", "ResNet", "Mask R-CNN", "SSD", "Faster R-CNN", "ImageNet"
+  ],
+  "Natural Language Processing": [
+    "NLTK", "spaCy", "Transformers", "BERT", "GPT", "T5", "SentenceTransformers", "LangChain", "RAG", "HuggingFace", "CoreNLP", "TextBlob", "Gensim"
+  ],
+  "Generative AI": [
+    "GPT", "T5", "BERT", "Stable Diffusion", "DALL-E", "MidJourney", "OpenAI API", "HuggingFace Transformers", "LangChain", "RAG", "Vector Databases", "Mistral", "Groq", "Claude", "Llama"
+  ],
+  "Agentic AI": [
+    "AutoGPT", "BabyAGI", "LangChain Agents", "OpenAI Functions", "Task Management Agents", "ReAct Agents", "Autogen", "CREWAI", "LLaMA"
+  ],
+  "Data Analysis": [
+    "Python", "R", "NumPy", "Pandas", "Statsmodels", "EDA", "Feature Engineering", "Dimensionality Reduction", "Anomaly Detection", "Time Series Analysis"
+  ],
+  "Data Visualization": [
+    "Matplotlib", "Seaborn", "Plotly", "Tableau", "Power BI", "Dash", "ggplot2", "Bokeh", "Altair"
+  ],
+  "Data Engineering": [
+    "SQL", "NoSQL", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Kafka", "Airflow", "Spark", "Hadoop", "Flink", "Cassandra", "BigQuery"
+  ],
+  "Cloud Computing": [
+    "AWS", "Azure", "GCP", "Kubernetes", "Docker", "Terraform", "Serverless", "Lambda", "ECS", "EKS", "CloudFormation", "OpenShift", "Supabase", "Firebase"
+  ],
+  "Web Development": [
+    "HTML", "CSS", "JavaScript", "TypeScript", "React", "Angular", "Vue.js", "Next.js", "Node.js", "Express",
+    "Django", "Flask", "Ruby on Rails", "PHP", "Laravel", "Svelte", "SolidJS", "Nuxt.js", "NestJS", "ASP.NET"
+  ],
+  "Frontend Frameworks & UI": [
+    "Tailwind CSS", "Chakra UI", "Material UI", "Ant Design", "Bootstrap", "Styled Components", "Emotion", "Framer Motion", "Vuetify", "Quasar"
+  ],
+  "State Management": [
+    "Redux", "Redux Toolkit", "Zustand", "MobX", "Recoil", "Vuex", "Pinia"
+  ],
+  "Testing & QA": [
+    "Jest", "Vitest", "Cypress", "Playwright", "Selenium", "PyTest", "Mocha", "Chai", "JUnit", "TestNG"
+  ],
+  "DevOps & CI/CD": [
+    "Git", "GitHub Actions", "GitLab CI/CD", "Jenkins", "CircleCI", "Travis CI", "Terraform", "Docker", "Kubernetes", "ArgoCD", "Ansible", "Puppet", "Chef"
+  ],
+  "Big Data & Analytics": [
+    "Hadoop", "Spark", "Flink", "Presto", "Hive", "Pig", "Kafka", "Druid", "Airbyte", "dbt"
+  ],
+  "Mobile Development": [
+    "React Native", "Flutter", "Swift", "Kotlin", "Java", "Objective-C", "Xamarin", "Ionic"
+  ],
+  "Cybersecurity": [
+    "OWASP", "Nmap", "Wireshark", "Metasploit", "Snort", "Burp Suite", "Kali Linux", "Nessus", "OpenVAS"
+  ],
+  "Version Control": [
+    "Git", "SVN", "Mercurial", "Perforce"
+  ],
+  "API & Microservices": [
+    "REST", "GraphQL", "gRPC", "tRPC", "FastAPI", "Spring Boot", "Express.js", "NestJS", "Kong", "Apigee"
+  ],
+  "Robotic Process Automation": [
+    "UiPath", "Automation Anywhere", "Blue Prism", "Power Automate"
+  ],
+  "Internet of Things (IoT)": [
+    "MQTT", "CoAP", "Arduino", "Raspberry Pi", "Edge Computing"
+  ],
+  "Blockchain": [
+    "Ethereum", "Solidity", "Hyperledger", "Web3.js", "Truffle"
+  ],
+  "Artificial Intelligence": [
+    "Reinforcement Learning", "Genetic Algorithms", "GANs", "AutoML"
+  ]
+}
