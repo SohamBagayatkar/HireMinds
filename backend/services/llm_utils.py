@@ -6,7 +6,7 @@ from langchain_groq import ChatGroq  # Groq integration (Llama 3 models)
 
 # Supported models mapping
 MODEL_MAP = {
-    "openai": "gpt-4o-mini",
+    "openai": "gpt-4.1-mini",
     "mistral": "mistral-small-latest",
     "gemini": "gemini-2.5-flash",
     "groq": "llama-3.3-70b-versatile"  # Default Groq model

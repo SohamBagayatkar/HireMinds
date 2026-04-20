@@ -37,7 +37,7 @@ def get_embedding_model(
         if not gemini_api_key:
             raise ValueError("Gemini API key is required when using Gemini embeddings.")
         return GoogleGenerativeAIEmbeddings(
-            model="models/embedding-001",
+            model="text-embedding-004",
             google_api_key=gemini_api_key
         )
 
@@ -73,7 +73,14 @@ def calculate_gap_score(
     - Embedding similarity (30% weight)
     """
     # --- Step 1: Skill extraction & comparison ---
-    skill_data = compare_skills(resume_text, jd_text, user_model, openai_api_key)
+    skill_data = compare_skills(
+    resume_text,
+    jd_text,
+    model=user_model,
+    openai_key=openai_api_key or mistral_api_key,
+    groq_key=groq_api_key,
+    gemini_key=gemini_api_key
+)
 
     matched_count = len(skill_data["matched_skills"])
     total_jd_skills = len(skill_data["total_jd_skills"])

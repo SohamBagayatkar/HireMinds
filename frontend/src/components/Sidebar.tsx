@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, FileText, User, Menu, Settings, Files } from "lucide-react";
+import { Home, FileText, User, Menu, Settings, Files, Video } from "lucide-react";
 import { useState } from "react";
 
 export default function Sidebar() {
@@ -16,6 +16,7 @@ export default function Sidebar() {
     { name: "Gap Analyzer", href: "/ats-home/gap-analyzer", icon: FileText },
     { name: "Resume Advisor", href: "/ats-home/resume-advisor", icon: User },
     { name: "Resume Screening", href: "/ats-home/resume-screening", icon: Menu },
+    { name: "Video Analysis", href: "/ats-home/video-gap-analyzer", icon: Video },
   ];
 
   return (

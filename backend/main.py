@@ -10,7 +10,8 @@ load_dotenv()
 from routers import (
     gap_analyzer,
     resume_advisor,
-    resume_screening,  # ✅ Added this line
+    resume_screening,
+    video_gap_analyzer,  
 )
 
 # Initialize FastAPI app
@@ -35,7 +36,8 @@ app.add_middleware(
 # ✅ ATS Routers
 app.include_router(gap_analyzer.router, prefix="/api", tags=["Gap Analyzer"])
 app.include_router(resume_advisor.router, prefix="/api", tags=["Resume Advisor"])
-app.include_router(resume_screening.router, prefix="/api", tags=["Resume Screening"])  # ✅ Added this line
+app.include_router(resume_screening.router, prefix="/api", tags=["Resume Screening"])
+app.include_router(video_gap_analyzer.router, prefix="/api", tags=["Video Gap Analyzer"])  
 
 # Root endpoint for health check
 @app.get("/")
